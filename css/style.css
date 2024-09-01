@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 8vh;
+    position: sticky;
+    top: 0px;
+
+    }
+
+.title{
+    
+    display: flex;
+    column-gap: 20px;
+    
+}
+.title i{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+
+}
+.searchbar{
+    text-align: center;
+    
+}
+.searchbar input{
+    border-radius: 20px;
+    width: 300px;
+    padding: 5px;
+    border: none;
+}
+.menu{
+    display: flex;
+    column-gap: 20px;
+
+    
+}
+.menu img{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.menu i{
+    font-size: 24px;
+    position: relative;
+    position: relative;
+    top: 7px;
+
+}
+.container{
+    display: flex;
+}
+.leftcont{
+    width: 30%;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 650px;
+    
+}
+ .leftcont .but{
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 30px;
+    width: 200px;
+    position: relative;
+    top:75px;
+    
+}
+.leftcont .but button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+}
+
+
+
+.rightcont .cont1{
+    display: flex;
+    background-color: black;
+    color:white;
+    height: 325px;
+    align-items: center;
+    column-gap: 20px;
+}
+.rightcont img{
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+.rightcont .cont1 :last-child{
+    text-align: justify;
+}
+.rightcont .cont2{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 325px;
+    align-items: center;
+    column-gap: 20px;
+}
+
